@@ -29,13 +29,16 @@ const PlanetDetails = () => {
         
       </Typography>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        Rotation Period : {planet.rotation_period}
+        Rotation Period : {planet.rotation_period}<br/>
+        Orbital Period : {planet.orbital_period}<br/>
+        Diameter : {planet.diameter}<br/>
+        Climate : {planet.climate}<br/>
+        Gravity : {planet.gravity}<br/>
+        Terrain : {planet.terrain}<br/>
+        Surface Water : {planet.surface_water}<br/>
+        Population : {planet.population}
       </Typography>
-      <Typography variant="body2">
-        well meaning and kindly.
-        <br />
-        {'"a benevolent smile"'}
-      </Typography>
+      
     </CardContent>
     
   </Card>
